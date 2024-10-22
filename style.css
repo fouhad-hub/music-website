@@ -24,7 +24,7 @@ body {
   width: 500px;
   gap: 50px;
   /* text-align: center; */
-  margin-left: 700px;
+  /* margin-left: 700px; */
 }
 .home-search__container i {
   color: white;
@@ -48,7 +48,7 @@ body {
   border-radius: 30px;
   border: 0px solid;
   background: #2d2d2d;
-  color: #555;
+  color: #fff;
   padding: 10px 25px;
   height: 40px;
   font-size: 16px;
@@ -89,6 +89,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* gap: 10px; */
   width: 150px;
   margin-bottom: 30px;
 }
