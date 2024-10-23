@@ -73,8 +73,9 @@ ul {
   list-style: none;
 }
 .main {
-  background-color: rgb(223, 218, 218);
+  background-color: rgba(35, 29, 29, 0.781);
   display: flex;
+  /* border-radius: 50px; */
 }
 .aside {
   padding: 30px 20px;
@@ -82,8 +83,9 @@ ul {
   flex-direction: column;
   flex-grow: 30%;
   /* width: 300px; */
-  background-color: rgb(136, 134, 134);
+  background-color: rgba(35, 29, 29, 0.781);
   height: 100svh;
+  /* border-radius: 30px; */
 }
 .header-aside {
   display: flex;
@@ -106,23 +108,28 @@ ul {
   color: white;
 }
 
-.h5-aside {
+/* .h5-aside {
   color: rgb(223, 217, 217);
   margin-bottom: 20px;
-}
+} */
 .ul-aside {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 100%;
+  gap: 50px;
+  /* height: 100%; */
 }
 .ul-aside li {
   font-size: 1.2rem;
   color: white;
   margin-bottom: 50px;
 }
-/* .ul-aside li i {
-} */
+.li-aside:hover {
+  background-color: rgba(111, 93, 93, 0.902);
+  padding: 10px;
+  border-radius: 20px;
+  transition: all 500ms ease;
+}
 .ul-aside li span {
   margin-left: 10px;
 }
@@ -177,4 +184,37 @@ ul {
   justify-content: space-between;
   align-items: center;
   width: 200px;
+}
+.section {
+  border-radius: 50px;
+  background-color: white;
+  color: white;
+}
+.music-card {
+  background-color: rgba(23, 18, 18, 0.902);
+  /* background-color: black; */
+  width: 700px;
+  height: 200px;
+  padding: 20px 50px;
+  border-radius: 30px;
+  display: flex;
+  /* overflow: hidden; */
+  position: relative;
+}
+.music-card_txt__area {
+  width: 300px;
+}
+.h5-music_card,
+.h2-music_card {
+  margin-bottom: 30px;
+}
+.music-card_img {
+  height: 100px;
+}
+.music-card-img__container img {
+  height: 200px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  border-radius: 20px;
 }
