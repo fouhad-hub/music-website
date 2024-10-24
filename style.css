@@ -189,6 +189,8 @@ ul {
   border-radius: 50px;
   background-color: white;
   color: white;
+  display: flex;
+  flex-direction: row;
 }
 .music-card {
   background-color: rgba(23, 18, 18, 0.902);
@@ -217,4 +219,23 @@ ul {
   right: 0;
   top: 0;
   border-radius: 20px;
+}
+.music-card-img__container img:hover {
+  scale: 1.05;
+  transition: all 500ms ease;
+}
+.aside-section {
+  background-color: #392a2a;
+  padding: 20px;
+  border-radius: 50px;
+  /* margin-right: 50px; */
+}
+.aside-section_img__container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 20px;
+}
+.aside-section_img__container img:hover {
+  scale: 1.05;
+  transition: all 500ms ease;
 }
